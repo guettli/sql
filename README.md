@@ -21,7 +21,7 @@ WHERE category_id IN
 ```
 
 Up to now you need to specify the category table after the FROM. It would be very handy, if
-you could avoid it, if `category_id` is a Foreign-Key to the category-table.
+you could omit it by using a special syntax (here `...`), if `category_id` is a Foreign-Key to the category-table.
 This would be very hand and would reduce the likelihood of typos while writing SQL.
 
 
